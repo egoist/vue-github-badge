@@ -1,6 +1,6 @@
 {
   "name": "vue-github-badge",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "cuz I need it",
   "repository": {
     "url": "egoist/vue-github-badge",
@@ -29,9 +29,14 @@
     "xo": "^0.17.1"
   },
   "xo": {
-    "extends": ["rem", "vue-app"],
+    "extends": [
+      "rem",
+      "vue-app"
+    ],
     "esnext": true,
-    "ignores": ["example.js"]
+    "ignores": [
+      "example.js"
+    ]
   },
   "vbuild": {
     "dist": "dist-example",
