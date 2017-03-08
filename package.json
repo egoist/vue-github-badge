@@ -29,8 +29,9 @@
     "xo": "^0.17.1"
   },
   "xo": {
-    "extends": "rem",
-    "esnext": true
+    "extends": ["rem", "vue-app"],
+    "esnext": true,
+    "ignores": ["example.js"]
   },
   "vbuild": {
     "dist": "dist-example",
