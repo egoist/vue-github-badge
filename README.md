@@ -8,6 +8,8 @@
 yarn add vue-github-badge
 ```
 
+CDN: https://unpkg.com/vue-github-badge/dist/
+
 ## Usage
 
 ```vue
