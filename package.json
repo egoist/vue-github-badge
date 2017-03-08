@@ -40,6 +40,7 @@
   },
   "vbuild": {
     "dist": "dist-example",
-    "entry": "example.js"
+    "entry": "example.js",
+    "homepage": "/vue-github-badge"
   }
 }
