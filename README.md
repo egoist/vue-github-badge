@@ -32,7 +32,7 @@ yarn add vue-github-badge
 
 #### slug
 
-Type: `string`
+Type: `string`<br>
 Required: `true`
 
 GitHub slug (owner/repo)
