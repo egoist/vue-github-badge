@@ -11,7 +11,8 @@
     "dist"
   ],
   "scripts": {
-    "test": "echo 'no tests!' && npm run lint && npm run build",
+    "test": "echo 'no tests!' && npm run lint",
+    "prepublish": "npm run build",
     "lint": "xo",
     "build": "bili ./src/index.js --format umd --compress --module-name GitHubBadge --name vue-github-badge --js babel --banner",
     "build:example": "poi build",
