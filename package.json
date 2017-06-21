@@ -31,10 +31,8 @@
   },
   "xo": {
     "extends": [
-      "rem",
-      "vue-app"
+      "rem"
     ],
-    "esnext": true,
     "ignores": [
       "example.js"
     ]
