@@ -4,14 +4,14 @@ export default {
   functional: true,
 
   props: {
-    slug: {type: String, required: true},
-    width: {type: Number, default: 36},
-    height: {type: Number, default: 36},
-    fill: {type: String, default: 'black'}
+    slug: { type: String, required: true },
+    width: { type: Number, default: 36 },
+    height: { type: Number, default: 36 },
+    fill: { type: String, default: 'black' }
   },
 
   render: (h, ctx) => {
-    const {slug, height, width, fill} = ctx.props
+    const { slug, height, width, fill } = ctx.props
 
     const style = {
       position: 'fixed',
