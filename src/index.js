@@ -16,7 +16,8 @@ export default {
     const style = {
       position: 'fixed',
       top: '1rem',
-      right: '1rem'
+      right: '1rem',
+      zIndex: 9999
     }
 
     return (
