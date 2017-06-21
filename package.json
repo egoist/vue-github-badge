@@ -13,20 +13,20 @@
   "scripts": {
     "test": "echo 'no tests!' && npm run lint && npm run build",
     "lint": "xo",
-    "build": "bili ./src/index.js --format umd --compress --module-name GitHubBadge --name vue-github-badge --js babel",
-    "build:example": "vbuild",
+    "build": "bili ./src/index.js --format umd --compress --module-name GitHubBadge --name vue-github-badge --js babel --banner",
+    "build:example": "poi build",
     "deploy": "npm run build:example && gh-pages -d dist-example",
-    "dev": "vbuild -d"
+    "dev": "poi"
   },
   "author": "egoist <0x142857@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "bili": "^0.14.0",
-    "eslint-config-rem": "^3.0.0",
-    "gh-pages": "^0.12.0",
+    "bili": "^0.16.0-rc.2",
+    "eslint-config-rem": "^3.1.0",
+    "gh-pages": "^1.0.0",
+    "poi": "^9.0.4",
     "rollup-plugin-babel": "^2.7.1",
-    "vbuild": "^6.23.2",
-    "xo": "^0.17.1"
+    "xo": "^0.18.2"
   },
   "xo": {
     "extends": [
@@ -38,7 +38,7 @@
       "example.js"
     ]
   },
-  "vbuild": {
+  "poi": {
     "dist": "dist-example",
     "entry": "example.js",
     "homepage": "/vue-github-badge"
